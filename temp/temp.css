@@ -1,0 +1,33 @@
+/* Table container */
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  width: 400px;
+  margin: 20px auto;
+}
+
+/* Rows */
+.row {
+  display: flex;
+}
+
+/* Header row with bold text */
+.header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Cells (columns) */
+.cell {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Optional: Styling for hover effect on rows */
+.row:hover {
+  background-color: #f9f9f9;
+}
